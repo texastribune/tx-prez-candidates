@@ -1,6 +1,13 @@
 {
   "META": {
-    "project_name": "Texas Presidential Candidates",
-    "description": ""
+    "candidate_name": "photo_url",
+    "Rick Perry": "xx",
+    "Hillary Clinton": "xx"
+  },
+  "PERRY": {
+    "connection_city": "connection_type"
+  },
+  "CLINTON": {
+    "connection_city": "connection_type"
   }
 }
