@@ -1,4 +1,4 @@
-$bp-table: new-breakpoint(max-width 600px);
+$bp-table: new-breakpoint(min-width 600px);
 
 table {
   font-family: $base-sans-serif;
@@ -80,7 +80,7 @@ td {
 }
 
 tr {
-  td {
+  &:nth-child(odd) td {
     background-color: $background-gray;
   }
 

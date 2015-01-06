@@ -1,0 +1,21 @@
+.graphic{
+  @include outer-container();
+}
+
+.candidate-card{
+  @include span-columns(12);
+  font-family: $base-sans-serif;
+  border-top: dotted 1px $text-gray;
+}
+
+.img-box{
+  @include span-columns(3);
+}
+
+.card-header{
+  padding-top: 10px;
+}
+
+.connection-table{
+  @include span-columns(12);
+}
