@@ -16,6 +16,10 @@
   padding-top: 10px;
 }
 
+.table-title{
+  font-variant: small-caps;
+}
+
 .connection-table{
   @include span-columns(12);
 }

@@ -22,28 +22,28 @@
 <div class="candidate-card">
   <div class="card-header">
     <img class="img-box" src="http://s3.amazonaws.com/static.texastribune.org/media/images/2013/02/25/JebBush-2.jpg">
-    <h3 class="candidate-name prose">Name Namerson</h3>
+    <h2 class="candidate-name prose">Name Namerson</h2>
     <p class="candidate-description prose">Description n things. Who is Name Namerson.</p>
   </div>
-    <div class="connection-table">
-      <h5>Connection</h5>
-      <table>
-        <thead>
-          <tr>
-            <th>City</th>
-            <th>Type</th>
-            <th>Description</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td data-title="City">Austin</td>
-            <td data-title="Type">Campaign</td>
-            <td data-title="Acting Chamber">Blah blah Namerson loves Austin</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
+  <div class="connection-table">
+    <h4 class="table-title">connections</h4>
+    <table>
+      <thead>
+        <tr>
+          <th>City</th>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td data-title="City">Austin</td>
+          <td data-title="Type">Campaign</td>
+          <td data-title="Acting Chamber">Blah blah Namerson loves Austin</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
 </div>
 
   {% for candidate in data %}
@@ -52,11 +52,6 @@
   {% endfor %}
 
 </div>
-
-<footer>
-  <div>Source{{ 's' if sources.length > 1 else '' }}: {% for source in sources %}<a href="{{ source.url }}" target="_blank">{{ source.name }}</a> {% if not loop.last %} | {% endif %}{% endfor %}</div>
-  <div>Produced by {% for author in authors %}<a href="{{ author.url }}">{{ author.name }}</a>{% if not loop.last %}, {% endif %}{% endfor %}</div>
-</footer>
 
 <!-- build:js scripts/vendor.js -->
 <!-- bower:js -->
