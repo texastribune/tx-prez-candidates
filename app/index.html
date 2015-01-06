@@ -19,39 +19,43 @@
 
 <div id="graphic" class="graphic">
 
-<div class="candidate-card">
-  <div class="card-header">
-    <div class="img-box">
-      <img src="http://s3.amazonaws.com/static.texastribune.org/media/images/2013/02/25/JebBush-2.jpg">
+{% for candidate in DATA %}
+  {% if candidate.META != "" %}
+  <div class="candidate-card">
+    <div class="card-header">
+      <div class="img-box">
+        <img src="{{ candidate.META.photo_url }}">
+      </div>
+      <h2 class="candidate-name prose">{{ candidate.META.candidate_name }}</h2>
+      <p class="candidate-description prose">{{ candidate.META.description }}</p>
     </div>
-    <h2 class="candidate-name prose">Name Namerson</h2>
-    <p class="candidate-description prose">Description n things. Who is Name Namerson.</p>
+    <div class="connection-table">
+      <h4 class="table-title">connections</h4>
+      <table>
+        <thead>
+          <tr>
+            <th>City</th>
+            <th>Type</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+        {% for connection in candidate.CONNECTIONS %}
+          <tr>
+            <td data-title="City">{{ connection.connection_city }}</td>
+            <td data-title="Type">{{ connection.connection_type }}</td>
+            <td data-title="Acting Chamber">{{ connection.connection_text }}</td>
+          </tr>
+        {% endfor %}
+        </tbody>
+      </table>
+    </div>
   </div>
-  <div class="connection-table">
-    <h4 class="table-title">connections</h4>
-    <table>
-      <thead>
-        <tr>
-          <th>City</th>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td data-title="City">Austin</td>
-          <td data-title="Type">Campaign</td>
-          <td data-title="Acting Chamber">Blah blah Namerson loves Austin</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-</div>
+  {% endif %}
+{% endfor %}
+    <h3></h3>
+    <p></p>
 
-  {% for candidate in DATA %}
-    <h3>{{ candidate.META.candidate_name }}</h3>
-    <p>{{ candidate.META.description }}</p>
-  {% endfor %}
 
 </div>
 

@@ -6,6 +6,8 @@
   @include span-columns(12);
   font-family: $base-sans-serif;
   border-top: dotted 1px $text-gray;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .img-box{
