@@ -1,13 +1,13 @@
 var fs = require('fs');
 var marked = require('marked');
 var XLSX = require('xlsx');
+var _ = require('lodash');
 
 marked.setOptions({
   smartypants: true
 });
 
 var SHEETS = [
-  'META',
   'BUSH',
   'CHRISTIE',
   'CLINTON',
@@ -20,9 +20,12 @@ var SHEETS = [
   'WARREN'
 ];
 
-var DATA = {};
-
 var workbook = XLSX.readFile('data.xlsx');
+
+var metaSheet = workbook.Sheets['META'];
+var metaData = XLSX.utils.sheet_to_json(metaSheet);
+
+var DATA = {};
 
 SHEETS.forEach(function(sheet) {
   'use strict';
@@ -32,40 +35,20 @@ SHEETS.forEach(function(sheet) {
   var data = XLSX.utils.sheet_to_json(worksheet);
 
   data.forEach(function(e) {
-    if (!e.blurb) {
+    if (!e.connection_text) {
       return;
     }
-    e.blurb = marked(e.blurb);
+    e.blurb = marked(e.connection_text);
 
   });
 
+  DATA[sheet] = {};
 
-  // var temp = {};
+  DATA[sheet]['META'] = _.find(metaData, {
+    sheet_name: sheet
+  });
 
-  // for (var cell in worksheet) {
-  //   if (cell[0] === '!') { continue; }
-  //   if (cell[0] === 'A') {
-  //     var aCell = worksheet[cell];
-  //     aCell = aCell ? aCell.v : '';
-
-  //     var cellNumber = cell.match(/\d+/)[0];
-
-  //     var bCell = worksheet['B' + cellNumber];
-  //     bCell = bCell ? bCell.v : '';
-
-  //     var cCell = worksheet['C' + cellNumber];
-  //     cCell = cCell ? cCell.v : '';
-
-
-  //     if (cCell === 'markdown') {
-  //       bCell = marked(bCell);
-  //     }
-
-  //     temp[aCell] = bCell;
-  //   }
-  // }
-
-  DATA[sheet] = data;
+  DATA[sheet]['CONNECTIONS'] = data;
 });
 
 fs.writeFileSync('data.json', JSON.stringify(DATA, null, 2));
