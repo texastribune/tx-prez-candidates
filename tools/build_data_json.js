@@ -8,8 +8,16 @@ marked.setOptions({
 
 var SHEETS = [
   'META',
+  'BUSH',
+  'CHRISTIE',
+  'CLINTON',
+  'CRUZ',
+  'FIORINA',
+  'HUCKABEE',
+  'OMALLEY',
+  'PAUL',
   'PERRY',
-  'CLINTON'
+  'WARREN'
 ];
 
 var DATA = {};

@@ -17,11 +17,12 @@
 </head>
 <body>
 
-<header>
-  <h1>{{ META.project_name }}</h1>
-</header>
-
 <div id="graphic" class="graphic">
+
+  {% for person in META %}
+    <h3>{{ person.candidate_name }}</h3>
+    <p>{{ person.description }}</p>
+  {% endfor %}
 
 </div>
 
