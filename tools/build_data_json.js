@@ -21,32 +21,43 @@ SHEETS.forEach(function(sheet) {
 
   var worksheet = workbook.Sheets[sheet];
 
-  var temp = {};
+  var data = XLSX.utils.sheet_to_json(worksheet);
 
-  for (var cell in worksheet) {
-    if (cell[0] === '!') { continue; }
-    if (cell[0] === 'A') {
-      var aCell = worksheet[cell];
-      aCell = aCell ? aCell.v : '';
-
-      var cellNumber = cell.match(/\d+/)[0];
-
-      var bCell = worksheet['B' + cellNumber];
-      bCell = bCell ? bCell.v : '';
-
-      var cCell = worksheet['C' + cellNumber];
-      cCell = cCell ? cCell.v : '';
-
-
-      if (cCell === 'markdown') {
-        bCell = marked(bCell);
-      }
-
-      temp[aCell] = bCell;
+  data.forEach(function(e) {
+    if (!e.blurb) {
+      return;
     }
-  }
+    e.blurb = marked(e.blurb);
 
-  DATA[sheet] = temp;
+  });
+
+
+  // var temp = {};
+
+  // for (var cell in worksheet) {
+  //   if (cell[0] === '!') { continue; }
+  //   if (cell[0] === 'A') {
+  //     var aCell = worksheet[cell];
+  //     aCell = aCell ? aCell.v : '';
+
+  //     var cellNumber = cell.match(/\d+/)[0];
+
+  //     var bCell = worksheet['B' + cellNumber];
+  //     bCell = bCell ? bCell.v : '';
+
+  //     var cCell = worksheet['C' + cellNumber];
+  //     cCell = cCell ? cCell.v : '';
+
+
+  //     if (cCell === 'markdown') {
+  //       bCell = marked(bCell);
+  //     }
+
+  //     temp[aCell] = bCell;
+  //   }
+  // }
+
+  DATA[sheet] = data;
 });
 
 fs.writeFileSync('data.json', JSON.stringify(DATA, null, 2));

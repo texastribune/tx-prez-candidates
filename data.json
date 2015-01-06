@@ -1,13 +1,58 @@
 {
-  "META": {
-    "candidate_name": "photo_url",
-    "Rick Perry": "xx",
-    "Hillary Clinton": "xx"
-  },
-  "PERRY": {
-    "connection_city": "connection_type"
-  },
-  "CLINTON": {
-    "connection_city": "connection_type"
-  }
+  "META": [
+    {
+      "candidate_name": "Rick Perry",
+      "photo_url": "xx",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a porttitor mi. Aenean egestas aliquam libero vitae porta. Vivamus lorem orci, iaculis et lorem in, gravida aliquam nisi. Ut ipsum nibh, euismod vitae commodo sed, molestie in enim. Sed sagittis purus sit amet sem eleifend, ac aliquam massa imperdiet.",
+      "sheet_name": "PERRY"
+    },
+    {
+      "candidate_name": "Hillary Clinton",
+      "photo_url": "xx",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a porttitor mi. Aenean egestas aliquam libero vitae porta. Vivamus lorem orci, iaculis et lorem in, gravida aliquam nisi. Ut ipsum nibh, euismod vitae commodo sed, molestie in enim. Sed sagittis purus sit amet sem eleifend, ac aliquam massa imperdiet.",
+      "sheet_name": "CLINTON"
+    },
+    {
+      "candidate_name": "Ted Cruz ",
+      "photo_url": "http://s3.amazonaws.com/static.texastribune.org/media/images/2014/09/20/TribFest_Cruz0201.jpg",
+      "photo_cred": "Bob Daemmrich ",
+      "sheet_name": "CRUZ"
+    },
+    {
+      "candidate_name": "Jeb Bush ",
+      "photo_url": "http://s3.amazonaws.com/static.texastribune.org/media/images/2013/02/25/JebBush-2.jpg",
+      "photo_cred": "World Affairs Council of Philadelphia"
+    },
+    {
+      "candidate_name": "Rand Paul ",
+      "photo_url": "http://s3.amazonaws.com/static.texastribune.org/media/images/RandPaul1CMS.jpg",
+      "photo_cred": "Bob Daemmrich",
+      "description": "Paul spent most of his childhood in Lake Jackson and attended Baylor University. His father, Ron Paul, represented southeast Texas in non-consecutive terms from the 1970s until 2013.  "
+    },
+    {
+      "candidate_name": "Martin O'Malley",
+      "photo_url": "http://s3.amazonaws.com/static.texastribune.org/media/images/2013/09/12/5116909665_0b1c202afb_o.jpg",
+      "photo_cred": "Edward Kimmel",
+      "description": "The outgoing Maryland governor was the Dallas-based field director for Gary Hart's campagin for the 1984 Democratic nomination in 1984. "
+    },
+    {
+      "candidate_name": "Elizabeth Warren ",
+      "photo_url": "http://www.warren.senate.gov/images/Warren%20Headshot.jpg",
+      "description": "Warren earned her bachelor's at the University of Houston. She later taught there as a law professor, along with the University of Texas law school in the 1980s. "
+    },
+    {
+      "candidate_name": "Carly Fiorina ",
+      "photo_url": "https://www.flickr.com/photos/gageskidmore/13045502775",
+      "photo_cred": "Gage Skidmore",
+      "description": "Born in Austin, Fiorina left the Lone Star State at two-years-old. She returned often, and recalls swimming in Barton Springs as a child. Her family still owns property in TKTKTK. "
+    },
+    {
+      "candidate_name": "Mike Huckabee",
+      "photo_url": "https://www.flickr.com/photos/gageskidmore/13000577764",
+      "photo_cred": "Gage Skidmore",
+      "description": "The former Arkansas governor attended the Southwestern Baptist Theological Seminary located in Fort Worth between 1976-1977. "
+    }
+  ],
+  "PERRY": [],
+  "CLINTON": []
 }
