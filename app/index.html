@@ -21,7 +21,9 @@
 
 <div class="candidate-card">
   <div class="card-header">
-    <img class="img-box" src="http://s3.amazonaws.com/static.texastribune.org/media/images/2013/02/25/JebBush-2.jpg">
+    <div class="img-box">
+      <img src="http://s3.amazonaws.com/static.texastribune.org/media/images/2013/02/25/JebBush-2.jpg">
+    </div>
     <h2 class="candidate-name prose">Name Namerson</h2>
     <p class="candidate-description prose">Description n things. Who is Name Namerson.</p>
   </div>
@@ -47,7 +49,7 @@
 </div>
 
   {% for candidate in data %}
-    <h3>{{ candidate.META.candidate_name }}</h3>
+    <h3>{{ candidate.candidate_name }}</h3>
     <p>{{ candidate.META.description }}</p>
   {% endfor %}
 
