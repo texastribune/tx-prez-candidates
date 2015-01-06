@@ -1,6 +1,8 @@
 @import 'bourbon/dist/bourbon';
 @import 'neat/app/assets/stylesheets/neat';
 
+@import 'normalize';
+
 @import 'candidate-cards/extra-mixins';
 @import 'candidate-cards/tables';
 @import 'candidate-cards/cards'
