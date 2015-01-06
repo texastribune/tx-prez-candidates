@@ -19,6 +19,41 @@
 
 <div id="graphic" class="graphic">
 
+<div class="candidate-card">
+  <div class="img-box">
+  </div>
+  <div class="card-info">
+    <div class="card-header">
+      <h3 class="candidate-name">Name Namerson</h3>
+      <p class="candidate-description">Description n things. Who is Name Namerson.</p>
+    </div>
+    <div class="connection-table">
+      <h5>Connection</h5>
+      <table>
+        <thead>
+          <tr>
+            <th>City</th>
+            <th>Type</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td data-title="City">Austin</td>
+            <td data-title="Type">Campaign</td>
+            <td data-title="Acting Chamber">Blah blah Namerson loves Austin</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+  {% for candidate in data %}
+    <h3>{{ candidate.META.candidate_name }}</h3>
+    <p>{{ candidate.META.description }}</p>
+  {% endfor %}
+
 </div>
 
 <footer>

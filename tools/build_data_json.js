@@ -25,7 +25,7 @@ var workbook = XLSX.readFile('data.xlsx');
 var metaSheet = workbook.Sheets['META'];
 var metaData = XLSX.utils.sheet_to_json(metaSheet);
 
-var DATA = {};
+var DATA = [];
 
 SHEETS.forEach(function(sheet) {
   'use strict';
@@ -42,13 +42,15 @@ SHEETS.forEach(function(sheet) {
 
   });
 
-  DATA[sheet] = {};
+  var tempData = {};
 
-  DATA[sheet]['META'] = _.find(metaData, {
+  tempData['META'] = _.find(metaData, {
     sheet_name: sheet
   });
 
-  DATA[sheet]['CONNECTIONS'] = data;
+  tempData['CONNECTIONS'] = data;
+
+  DATA.push(tempData);
 });
 
 fs.writeFileSync('data.json', JSON.stringify(DATA, null, 2));

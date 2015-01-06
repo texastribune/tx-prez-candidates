@@ -1,5 +1,5 @@
-{
-  "BUSH": {
+[
+  {
     "META": {
       "candidate_name": "Former Gov. Jeb Bush, R-Fla. ",
       "photo_url": "http://s3.amazonaws.com/static.texastribune.org/media/images/2013/02/25/JebBush-2.jpg",
@@ -27,7 +27,7 @@
       }
     ]
   },
-  "CHRISTIE": {
+  {
     "CONNECTIONS": [
       {
         "connection_city": "Arlington ",
@@ -37,7 +37,7 @@
       }
     ]
   },
-  "CLINTON": {
+  {
     "META": {
       "candidate_name": "Former U.S. Secretary of State Hillary Clinton",
       "photo_url": "xx",
@@ -57,7 +57,7 @@
       }
     ]
   },
-  "CRUZ": {
+  {
     "META": {
       "candidate_name": "Sen. Ted Cruz, R-Texas ",
       "photo_url": "http://s3.amazonaws.com/static.texastribune.org/media/images/2014/09/20/TribFest_Cruz0201.jpg",
@@ -81,7 +81,7 @@
       }
     ]
   },
-  "FIORINA": {
+  {
     "META": {
       "candidate_name": "Former Hewlett Packard CEO Carly Fiorina",
       "photo_url": "https://www.flickr.com/photos/gageskidmore/13045502775",
@@ -104,7 +104,7 @@
       }
     ]
   },
-  "HUCKABEE": {
+  {
     "META": {
       "candidate_name": "Former Gov. Mike Huckabee, R-Arkansas",
       "photo_url": "https://www.flickr.com/photos/gageskidmore/13000577764",
@@ -121,10 +121,10 @@
       }
     ]
   },
-  "OMALLEY": {
+  {
     "CONNECTIONS": []
   },
-  "PAUL": {
+  {
     "META": {
       "candidate_name": "Sen. Rand Paul, R-Ky.",
       "photo_url": "http://s3.amazonaws.com/static.texastribune.org/media/images/RandPaul1CMS.jpg",
@@ -147,7 +147,7 @@
       }
     ]
   },
-  "PERRY": {
+  {
     "META": {
       "candidate_name": "Gov. Rick Perry, R-Texas ",
       "photo_url": "xx",
@@ -175,7 +175,7 @@
       }
     ]
   },
-  "WARREN": {
+  {
     "META": {
       "candidate_name": "Sen. Elizabeth Warren, D-Mass. ",
       "photo_url": "http://www.warren.senate.gov/images/Warren%20Headshot.jpg",
@@ -197,4 +197,4 @@
       }
     ]
   }
-}
+]
