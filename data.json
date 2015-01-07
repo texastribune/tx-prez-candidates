@@ -20,14 +20,14 @@
         {
           "connection_city": "College Station ",
           "connection_type": "Studied There",
-          "connection_text": "Perry is a 1972 Texas A&M graduate, was a member of the Corps, and is possibly its most famous Yell Leader. ",
-          "blurb": "<p>Perry is a 1972 Texas A&amp;M graduate, was a member of the Corps, and is possibly its most famous Yell Leader. </p>\n"
+          "connection_text": "Perry is a 1972 Texas A&M graduate, was a member of the Corps and is possibly its most famous Yell Leader. ",
+          "blurb": "<p>Perry is a 1972 Texas A&amp;M graduate, was a member of the Corps and is possibly its most famous Yell Leader. </p>\n"
         },
         {
           "connection_city": "Austin ",
           "connection_type": "Works There",
-          "connection_text": "Perry began his career in state government as a member of the state House in 1985. He won satewide office in 1990, when he was elected Agriculture Commissioner. He became lieutenant governor in 1999. He succeed George W. Bush as governor in 2000 and made his first (unsuccessful) bid for the White House four years ago.  ",
-          "blurb": "<p>Perry began his career in state government as a member of the state House in 1985. He won satewide office in 1990, when he was elected Agriculture Commissioner. He became lieutenant governor in 1999. He succeed George W. Bush as governor in 2000 and made his first (unsuccessful) bid for the White House four years ago.  </p>\n"
+          "connection_text": "Perry began his career in state government as a member of the state House in 1985. He won statewide office in 1990, when he was elected agriculture commissioner. He became lieutenant governor in 1999. He succeed George W. Bush as governor in 2000 and made his first (unsuccessful) bid for the White House four years ago.  ",
+          "blurb": "<p>Perry began his career in state government as a member of the state House in 1985. He won statewide office in 1990, when he was elected agriculture commissioner. He became lieutenant governor in 1999. He succeed George W. Bush as governor in 2000 and made his first (unsuccessful) bid for the White House four years ago.  </p>\n"
         }
       ]
     },
@@ -175,8 +175,8 @@
         {
           "connection_city": "Fort Worth ",
           "connection_type": "Studied There",
-          "connection_text": "Long before he was governor of Arkansas or a Fox News host, Huckabee attended the Southwestern Baptist Theological Seminary in Fort Worth between 1976-1977. He did not graduate. ",
-          "blurb": "<p>Long before he was governor of Arkansas or a Fox News host, Huckabee attended the Southwestern Baptist Theological Seminary in Fort Worth between 1976-1977. He did not graduate. </p>\n"
+          "connection_text": "Long before he was governor of Arkansas or a Fox News host, Huckabee attended the Southwestern Baptist Theological Seminary in Fort Worth between 1976 and 1977. He did not graduate. ",
+          "blurb": "<p>Long before he was governor of Arkansas or a Fox News host, Huckabee attended the Southwestern Baptist Theological Seminary in Fort Worth between 1976 and 1977. He did not graduate. </p>\n"
         }
       ]
     },
