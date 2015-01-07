@@ -1,6 +1,6 @@
-.graphic{
-  @include outer-container();
-}
+// .graphic{
+//   @include outer-container();
+// }
 
 .candidate-card{
   @include span-columns(12);
@@ -64,6 +64,7 @@ $imgmap-bp: new-breakpoint(min-width 550px);
   }
   .connection-text{
     margin:.7em 0;
+    font-weight: 400;
   }
 }
 

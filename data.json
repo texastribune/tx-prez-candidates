@@ -13,19 +13,19 @@
       "CONNECTIONS": [
         {
           "connection_city": "Paint Creek",
-          "connection_type": "Born  ",
+          "connection_type": "Born There",
           "connection_text": "The longest-serving Texas governor grew up in Paint Creek, an experience he recalled in \"On My Honor,\" a book about his time as a Boy Scout. ",
           "blurb": "<p>The longest-serving Texas governor grew up in Paint Creek, an experience he recalled in “On My Honor,” a book about his time as a Boy Scout. </p>\n"
         },
         {
           "connection_city": "College Station ",
-          "connection_type": "Education ",
+          "connection_type": "Studied There",
           "connection_text": "Perry is a 1972 Texas A&M graduate, was a member of the Corps, and is possibly its most famous Yell Leader. ",
           "blurb": "<p>Perry is a 1972 Texas A&amp;M graduate, was a member of the Corps, and is possibly its most famous Yell Leader. </p>\n"
         },
         {
           "connection_city": "Austin ",
-          "connection_type": "Work ",
+          "connection_type": "Works There",
           "connection_text": "Perry began his career in state government as a member of the state House in 1985. He won satewide office in 1990, when he was elected Agriculture Commissioner. He became lieutenant governor in 1999. He succeed George W. Bush as governor in 2000 and made his first (unsuccessful) bid for the White House four years ago.  ",
           "blurb": "<p>Perry began his career in state government as a member of the state House in 1985. He won satewide office in 1990, when he was elected Agriculture Commissioner. He became lieutenant governor in 1999. He succeed George W. Bush as governor in 2000 and made his first (unsuccessful) bid for the White House four years ago.  </p>\n"
         }
@@ -50,7 +50,7 @@
         },
         {
           "connection_city": "Austin ",
-          "connection_type": "Campaign Staffer",
+          "connection_type": "Worked There",
           "connection_text": "As a domestic policy adviser on the Bush Cheney 2000 presidential campaign, Cruz lived in the state's capital.",
           "blurb": "<p>As a domestic policy adviser on the Bush Cheney 2000 presidential campaign, Cruz lived in the state’s capital.</p>\n"
         }
@@ -68,19 +68,19 @@
       "CONNECTIONS": [
         {
           "connection_city": "Midland",
-          "connection_type": "Born ",
+          "connection_type": "Born There",
           "connection_text": "The former Florida governor was born into one of the best-connected Texas political families in this West Texas oil town in 1953. ",
           "blurb": "<p>The former Florida governor was born into one of the best-connected Texas political families in this West Texas oil town in 1953. </p>\n"
         },
         {
           "connection_city": "Houston  ",
-          "connection_type": "Early Childhood ",
+          "connection_type": "Lived There, Worked There",
           "connection_text": "Bush spent much of his early childhood in Houston. He later worked there in the late 1970s for Texas Commerce Bank. ",
           "blurb": "<p>Bush spent much of his early childhood in Houston. He later worked there in the late 1970s for Texas Commerce Bank. </p>\n"
         },
         {
           "connection_city": "Austin",
-          "connection_type": "Education ",
+          "connection_type": "Studied There",
           "connection_text": "Bush graduated from the University of Texas at Austin in the early 1970s. ",
           "blurb": "<p>Bush graduated from the University of Texas at Austin in the early 1970s. </p>\n"
         }
@@ -99,13 +99,13 @@
       "CONNECTIONS": [
         {
           "connection_city": "Austin",
-          "connection_type": "Campaign staffer ",
+          "connection_type": "Worked There",
           "connection_text": "One of Clinton's first political gigs was in Texas, working with her future husband on George McGovern’s 1972 presidential campaign. Based in Austin, she befriended GSD&M ad man Roy Spence and former Land Commissioner Garry Mauro – both worked on her 2008 presidential campaign. And she even managed to catch http://www.texastribune.org/2014/06/20/hillary-clinton-book-tour-comes-austin/ a Jerry Jeff Walker show. ",
           "blurb": "<p>One of Clinton’s first political gigs was in Texas, working with her future husband on George McGovern’s 1972 presidential campaign. Based in Austin, she befriended GSD&amp;M ad man Roy Spence and former Land Commissioner Garry Mauro – both worked on her 2008 presidential campaign. And she even managed to catch <a href=\"http://www.texastribune.org/2014/06/20/hillary-clinton-book-tour-comes-austin/\">http://www.texastribune.org/2014/06/20/hillary-clinton-book-tour-comes-austin/</a> a Jerry Jeff Walker show. </p>\n"
         },
         {
           "connection_city": "San Antonio ",
-          "connection_type": "Campaign staffer ",
+          "connection_type": "Worked There",
           "connection_text": "Clinton told The New York Times in 2008 that she also spent part of her time during the McGovern campaign living in San Antonio and registering South Texas voters.",
           "blurb": "<p>Clinton told The New York Times in 2008 that she also spent part of her time during the McGovern campaign living in San Antonio and registering South Texas voters.</p>\n"
         }
@@ -124,15 +124,15 @@
       "CONNECTIONS": [
         {
           "connection_city": "Lake Jackson ",
-          "connection_type": "Childhood ",
-          "connection_text": "The Kentucky senator spent most of his childhood in the southeast Texas region his father represented in various spurts in the 1970s until his retirement in 2013. ",
-          "blurb": "<p>The Kentucky senator spent most of his childhood in the southeast Texas region his father represented in various spurts in the 1970s until his retirement in 2013. </p>\n"
+          "connection_type": "Raised There",
+          "connection_text": "The Kentucky senator grew up in southeast Texas, a region his father, former U.S. Rep. Ron Paul, represented on and off from the 1970s until his retirement in 2013. ",
+          "blurb": "<p>The Kentucky senator grew up in southeast Texas, a region his father, former U.S. Rep. Ron Paul, represented on and off from the 1970s until his retirement in 2013. </p>\n"
         },
         {
           "connection_city": "Waco ",
-          "connection_type": "Education ",
-          "connection_text": "Attended Baylor in the early 1980s. ",
-          "blurb": "<p>Attended Baylor in the early 1980s. </p>\n"
+          "connection_type": "Studied There",
+          "connection_text": "Paul attended Baylor in the early 1980s. He did not earn his bachelor's degree, but went on to Duke Medical School. ",
+          "blurb": "<p>Paul attended Baylor in the early 1980s. He did not earn his bachelor’s degree, but went on to Duke Medical School. </p>\n"
         }
       ]
     },
@@ -149,13 +149,13 @@
       "CONNECTIONS": [
         {
           "connection_city": "Austin ",
-          "connection_type": "Born ",
+          "connection_type": "Born There",
           "connection_text": "Born in Austin, the former Hewlett Packard CEO left the Lone Star State as a toddler. But she returned often, and recalls swimming in Barton Springs. ",
           "blurb": "<p>Born in Austin, the former Hewlett Packard CEO left the Lone Star State as a toddler. But she returned often, and recalls swimming in Barton Springs. </p>\n"
         },
         {
           "connection_city": "Calvert ",
-          "connection_type": "Family ",
+          "connection_type": "Family There",
           "connection_text": "After her family's move, she visited her grandparents in the summers in Calvert. Her family still owns property in the state. ",
           "blurb": "<p>After her family’s move, she visited her grandparents in the summers in Calvert. Her family still owns property in the state. </p>\n"
         }
@@ -174,7 +174,7 @@
       "CONNECTIONS": [
         {
           "connection_city": "Fort Worth ",
-          "connection_type": "Education ",
+          "connection_type": "Studied There",
           "connection_text": "Long before he was governor of Arkansas or a Fox News host, Huckabee attended the Southwestern Baptist Theological Seminary in Fort Worth between 1976-1977. He did not graduate. ",
           "blurb": "<p>Long before he was governor of Arkansas or a Fox News host, Huckabee attended the Southwestern Baptist Theological Seminary in Fort Worth between 1976-1977. He did not graduate. </p>\n"
         }
@@ -193,7 +193,7 @@
       "CONNECTIONS": [
         {
           "connection_city": "Dallas ",
-          "connection_type": "Campaign Staffer",
+          "connection_type": "Worked There",
           "connection_text": "Maryland's outgoing Democratic governor was the Dallas-based field director for Gary Hart's campaign for the 1984 Democratic presidential nomination.",
           "blurb": "<p>Maryland’s outgoing Democratic governor was the Dallas-based field director for Gary Hart’s campaign for the 1984 Democratic presidential nomination.</p>\n"
         }
@@ -211,13 +211,13 @@
       "CONNECTIONS": [
         {
           "connection_city": "Houston ",
-          "connection_type": "Education ",
+          "connection_type": "Studied There",
           "connection_text": "The Massachusetts senator, a Democrat, earned her B.S. at the University of Houston and later taught at the law school in the late 1970s and early 1980s. ",
           "blurb": "<p>The Massachusetts senator, a Democrat, earned her B.S. at the University of Houston and later taught at the law school in the late 1970s and early 1980s. </p>\n"
         },
         {
           "connection_city": "Austin ",
-          "connection_type": "Work ",
+          "connection_type": "Worked There",
           "connection_text": "Warren was a research associate and law professor at the University of Texas Law School from 1981 to 1987.",
           "blurb": "<p>Warren was a research associate and law professor at the University of Texas Law School from 1981 to 1987.</p>\n"
         }
@@ -236,7 +236,7 @@
       "CONNECTIONS": [
         {
           "connection_city": "Flower Mound ",
-          "connection_type": "Work ",
+          "connection_type": "Works There",
           "connection_text": "The former Pennsylvania senator, a Republican, is the CEO of a \"family-friendly film company\" called EchoLight Studios that is based in Flower Mound. His spokesman says he \"spends a significant amount of time in the state through his obligations to the company.\" Also, Santorum's oldest daughter is a graduate of The University of Dallas.",
           "blurb": "<p>The former Pennsylvania senator, a Republican, is the CEO of a “family-friendly film company” called EchoLight Studios that is based in Flower Mound. His spokesman says he “spends a significant amount of time in the state through his obligations to the company.” Also, Santorum’s oldest daughter is a graduate of The University of Dallas.</p>\n"
         }
