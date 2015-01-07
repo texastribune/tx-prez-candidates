@@ -100,8 +100,8 @@
         {
           "connection_city": "Austin",
           "connection_type": "Worked There",
-          "connection_text": "One of Clinton's first political gigs was in Texas, working with her future husband on George McGovern’s 1972 presidential campaign. Based in Austin, she befriended GSD&M ad man Roy Spence and former Land Commissioner Garry Mauro – both worked on her 2008 presidential campaign. And she even managed to catch http://www.texastribune.org/2014/06/20/hillary-clinton-book-tour-comes-austin/ a Jerry Jeff Walker show. ",
-          "blurb": "<p>One of Clinton’s first political gigs was in Texas, working with her future husband on George McGovern’s 1972 presidential campaign. Based in Austin, she befriended GSD&amp;M ad man Roy Spence and former Land Commissioner Garry Mauro – both worked on her 2008 presidential campaign. And she even managed to catch <a href=\"http://www.texastribune.org/2014/06/20/hillary-clinton-book-tour-comes-austin/\">http://www.texastribune.org/2014/06/20/hillary-clinton-book-tour-comes-austin/</a> a Jerry Jeff Walker show. </p>\n"
+          "connection_text": "One of Clinton's first political gigs was in Texas, working with her future husband on George McGovern’s 1972 presidential campaign. Based in Austin, she befriended GSD&M ad man Roy Spence and former Land Commissioner Garry Mauro – both worked on her 2008 presidential campaign. And she even managed to catch a <a href=\"http://www.texastribune.org/2014/06/20/hillary-clinton-book-tour-comes-austin/\">Jerry Jeff Walker show</a>. ",
+          "blurb": "<p>One of Clinton’s first political gigs was in Texas, working with her future husband on George McGovern’s 1972 presidential campaign. Based in Austin, she befriended GSD&amp;M ad man Roy Spence and former Land Commissioner Garry Mauro – both worked on her 2008 presidential campaign. And she even managed to catch a <a href=\"http://www.texastribune.org/2014/06/20/hillary-clinton-book-tour-comes-austin/\">Jerry Jeff Walker show</a>. </p>\n"
         },
         {
           "connection_city": "San Antonio ",
@@ -243,6 +243,15 @@
       ]
     },
     {
+      "META": {
+        "candidate_name": "Chris Christie",
+        "photo_url": "http://imgur.com/JBuinAQ",
+        "photo_slug": " ",
+        "photo_cred": "imgur",
+        "description": "jgsdjhdjshdfjgkf",
+        "sheet_name": "CHRISTIE",
+        "mapbox": "http://api.tiles.mapbox.com/v4/texastribune.map-3g2hqvcf/pin-s+c00(-97.11,32.74)/-100,31.5,5/400x300.png?access_token=pk.eyJ1IjoidGV4YXN0cmlidW5lIiwiYSI6Ilo2eDhZWmcifQ.19qcXfOTN6ulkGW5oouiPQ"
+      },
       "CONNECTIONS": [
         {
           "connection_city": "Arlington ",
