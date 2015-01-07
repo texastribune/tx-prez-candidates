@@ -3,6 +3,7 @@
 // }
 
 .candidate-card{
+  font-family:$georgia;
   @include span-columns(12);
   h3{
     margin: 0 0 .5em 0;
@@ -53,27 +54,22 @@ $imgmap-bp: new-breakpoint(min-width 550px);
 }
 
 .connection-item{
-  margin: 1em 0 2em 0;
+  margin: 1em 0 1.5em 0;
   padding: 0;
   .city, .connection-type{
-    font-weight: 500;
+    font-weight: 700;
     margin:0;
     .title{
-       font-weight:normal;
-        display:inline-block;
+       display:inline-block;
        padding:0 .5em 0 0 ;
-       font-size:.9em;
        color:#666;
      }
     }
-  p{
-    font-family: $helvetica;
-  }
   h4{
     margin:0;
   }
   .connection-text{
-    margin:1em 0;
+    margin:0.5em 0;
   }
 }
 
