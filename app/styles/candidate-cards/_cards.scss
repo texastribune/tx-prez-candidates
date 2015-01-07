@@ -4,10 +4,11 @@
 
 .candidate-card{
   @include span-columns(12);
-  font-family: $base-sans-serif;
-  border-top: dotted 1px $text-gray;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin: 1em;
+  h3{
+    margin-top: 0;
+  }
+
 }
 
 .img-box{
@@ -20,6 +21,7 @@
 .card-header{
   padding-top: 10px;
 }
+
 
 .table-title{
   font-variant: small-caps;
