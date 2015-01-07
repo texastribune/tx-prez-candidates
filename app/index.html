@@ -40,8 +40,8 @@
     <div class="connection-table">
       {% for connection in candidate.CONNECTIONS %}
         <div class="connection-item prose">
-          <h4 class="city">City: {{ connection.connection_city }}</h4>
-          <p class="caption connection-type">Connection: {{ connection.connection_type }}</p>
+          <p class="city"><span class="title">City:</span>{{ connection.connection_city }}</p>
+          <p class="connection-type"><span class="title">Connection:</span>{{ connection.connection_type }}</p>
           <p class="connection-text">{{ connection.connection_text }}</p>
         </div>
       {% endfor %}
