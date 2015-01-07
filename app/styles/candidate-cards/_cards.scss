@@ -15,14 +15,19 @@
 }
 
 .img-box{
-  @include span-columns(5);
+  width:53%;
+  float:left;
+  height:200px;
   img{
     width: 100%;
   }
 }
 
 .map-box{
-  @include span-columns(6);
+  width:45%;
+  float:right;
+  height:200px;
+  overflow:hidden;
   img{
     width: 100%;
   }
@@ -37,12 +42,18 @@
 }
 
 .connection-item{
-  margin: 1em 0;
+  margin: 2em 0;
   .city{
     font-weight: 700;
   }
   p{
     font-family: $helvetica;
+  }
+  h4{
+    margin:0;
+  }
+  .connection-text{
+    margin:.7em 0;
   }
 }
 
