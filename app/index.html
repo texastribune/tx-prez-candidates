@@ -14,6 +14,7 @@
   <!-- build:css(.tmp) styles/main.css -->
   <link rel="stylesheet" href="styles/main.css">
   <!-- endbuild -->
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css" rel="stylesheet">
 </head>
 <body>
 
@@ -24,7 +25,7 @@
   <div class="candidate-card">
     <div class="card-header prose">
       <div class="img-box">
-        <img src="{{ candidate.META.photo_url }}">
+        <img src="imgs/{{ candidate.META.photo_slug }}.jpg">
       </div>
       <h3 class="candidate-name">{{ candidate.META.candidate_name }}</h3>
       <p class="candidate-description">{{ candidate.META.description }}</p>
@@ -33,7 +34,7 @@
       {% for connection in candidate.CONNECTIONS %}
         <div class="connection-item prose">
           <h4 class="city">{{ connection.connection_city }}</h5>
-          <p class="caption connection-type">{{ connection.connection_type }}</p>
+          <p class="caption connection-type">Connection: {{ connection.connection_type }}</p>
           <p class="connection-text">{{ connection.connection_text }}</p>
         </div>
       {% endfor %}

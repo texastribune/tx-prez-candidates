@@ -2,10 +2,68 @@
   "DATA": [
     {
       "META": {
+        "candidate_name": "Texas Gov. Rick Perry",
+        "photo_url": "http://s3.amazonaws.com/static.texastribune.org/media/images/2014/08/16/UP9A5693.JPG",
+        "photo_slug": "rickPerry",
+        "photo_cred": "Marjorie Kamys Cotera",
+        "description": "The outgoing governor of Texas...tktktktktktk longest servign gov, yell leader, born in paint tktkt served in state government since tktktkt ",
+        "sheet_name": "PERRY"
+      },
+      "CONNECTIONS": [
+        {
+          "connection_city": "Paint Creek",
+          "connection_type": "Born  ",
+          "connection_text": "The longest-serving Texas governor grew up in Paint Creek, an experience he recalled in \"On My Honor,\" a book about his time as a Boy Scout. ",
+          "blurb": "<p>The longest-serving Texas governor grew up in Paint Creek, an experience he recalled in “On My Honor,” a book about his time as a Boy Scout. </p>\n"
+        },
+        {
+          "connection_city": "College Station ",
+          "connection_type": "Education ",
+          "connection_text": "Perry is a 1972 Texas A&M graduate, was a member of the Corps, and is possibly its most famous Yell Leader. ",
+          "blurb": "<p>Perry is a 1972 Texas A&amp;M graduate, was a member of the Corps, and is possibly its most famous Yell Leader. </p>\n"
+        },
+        {
+          "connection_city": "Austin ",
+          "connection_type": "Work ",
+          "connection_text": "Perry began his career in state government as a member of the state House in 1985. He won satewide office in 1990, when he was elected Agriculture Commissioner. He became lieutenant governor in 1999. He succeed George W. Bush as governor in 2000 and made his first (unsuccessful) bid for the White House four years ago.  ",
+          "blurb": "<p>Perry began his career in state government as a member of the state House in 1985. He won satewide office in 1990, when he was elected Agriculture Commissioner. He became lieutenant governor in 1999. He succeed George W. Bush as governor in 2000 and made his first (unsuccessful) bid for the White House four years ago.  </p>\n"
+        }
+      ]
+    },
+    {
+      "META": {
+        "candidate_name": "Sen. Ted Cruz, R-Texas ",
+        "photo_url": "http://s3.amazonaws.com/static.texastribune.org/media/images/2014/09/20/TribFest_Cruz0201.jpg",
+        "photo_slug": "tedCruz",
+        "photo_cred": "Bob Daemmrich ",
+        "description": "houston tktkt...second baptist...soliciter general...gwb camapign....private practice and currently lives in houston",
+        "sheet_name": "CRUZ",
+        "mapbox": "http://api.tiles.mapbox.com/v4/texastribune.map-3g2hqvcf/pin-s+c00(-97.74,30.27),pin-s+c00(-95.37,29.76)/-100,31.5,5/400x300.png?access_token=pk.eyJ1IjoidGV4YXN0cmlidW5lIiwiYSI6Ilo2eDhZWmcifQ.19qcXfOTN6ulkGW5oouiPQ"
+      },
+      "CONNECTIONS": [
+        {
+          "connection_city": "Houston ",
+          "connection_type": "Raised There, Lives There ",
+          "connection_text": "The Republican U.S. senator grew up in Houston and graduated from Second Baptist High. He lives there now, and prior to his election to the Senate, he was a partner at the law firm Morgan, Lewis & Brockius. ",
+          "blurb": "<p>The Republican U.S. senator grew up in Houston and graduated from Second Baptist High. He lives there now, and prior to his election to the Senate, he was a partner at the law firm Morgan, Lewis &amp; Brockius. </p>\n"
+        },
+        {
+          "connection_city": "Austin ",
+          "connection_type": "Bush/Cheney 2000 campaign ",
+          "connection_text": "Cruz was a domestic policy adviser on George W. Bush's first presidential campaign ",
+          "undefined": "Please don't use this one until I confirm that he lived in Austin ",
+          "blurb": "<p>Cruz was a domestic policy adviser on George W. Bush’s first presidential campaign </p>\n"
+        }
+      ]
+    },
+    {
+      "META": {
         "candidate_name": "Former Gov. Jeb Bush, R-Fla. ",
         "photo_url": "http://s3.amazonaws.com/static.texastribune.org/media/images/2013/02/25/JebBush-2.jpg",
+        "photo_slug": "jebBush",
         "photo_cred": "World Affairs Council of Philadelphia",
-        "sheet_name": "BUSH"
+        "sheet_name": "BUSH",
+        "mapbox": "http://api.tiles.mapbox.com/v4/texastribune.map-3g2hqvcf/pin-s+c00(-102.08,32.00),pin-s+c00(-95.37,29.76),pin-s+c00(-97.74,30.27)/-100,31.5,5/400x300.png?access_token=pk.eyJ1IjoidGV4YXN0cmlidW5lIiwiYSI6Ilo2eDhZWmcifQ.19qcXfOTN6ulkGW5oouiPQ"
       },
       "CONNECTIONS": [
         {
@@ -29,108 +87,35 @@
       ]
     },
     {
-      "CONNECTIONS": [
-        {
-          "connection_city": "Arlington ",
-          "connection_type": "America's Team ",
-          "connection_text": "The New Jersey Republican governor was spotted in the owner's box cheering on the Cowboys and bear-hugging team owner Jerry Jones. ",
-          "blurb": "<p>The New Jersey Republican governor was spotted in the owner’s box cheering on the Cowboys and bear-hugging team owner Jerry Jones. </p>\n"
-        }
-      ]
-    },
-    {
       "META": {
         "candidate_name": "Former U.S. Secretary of State Hillary Clinton",
-        "photo_url": "xx",
+        "photo_url": "http://s3.amazonaws.com/static.texastribune.org/media/images/2014/06/20/AHRCAustin345cms.jpg",
+        "photo_slug": "hillaryClinton",
+        "photo_cred": "Bob Daemmrich ",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a porttitor mi. Aenean egestas aliquam libero vitae porta. Vivamus lorem orci, iaculis et lorem in, gravida aliquam nisi. Ut ipsum nibh, euismod vitae commodo sed, molestie in enim. Sed sagittis purus sit amet sem eleifend, ac aliquam massa imperdiet.",
-        "sheet_name": "CLINTON"
+        "sheet_name": "CLINTON",
+        "mapbox": "http://api.tiles.mapbox.com/v4/texastribune.map-3g2hqvcf/pin-s+c00(-97.74,30.27),pin-s+c00(-98.49,29.42)/-100,31.5,5/400x300.png?access_token=pk.eyJ1IjoidGV4YXN0cmlidW5lIiwiYSI6Ilo2eDhZWmcifQ.19qcXfOTN6ulkGW5oouiPQ"
       },
       "CONNECTIONS": [
         {
           "connection_city": "Austin",
           "connection_type": "Campaign staffer ",
-          "connection_text": "One of Clinton's first political gigs was in Texas, working with her future husband on George McGovern’s 1972 presidential campaign. Based in Austin, she befriended  GSD&M ad man Roy Spence and former Land Commissioner Gary Mauro – both worked on her 2008 presidential campaign. And she even managed to catch http://www.texastribune.org/2014/06/20/hillary-clinton-book-tour-comes-austin/ a Jerry Jeff Walker show. ",
-          "blurb": "<p>One of Clinton’s first political gigs was in Texas, working with her future husband on George McGovern’s 1972 presidential campaign. Based in Austin, she befriended  GSD&amp;M ad man Roy Spence and former Land Commissioner Gary Mauro – both worked on her 2008 presidential campaign. And she even managed to catch <a href=\"http://www.texastribune.org/2014/06/20/hillary-clinton-book-tour-comes-austin/\">http://www.texastribune.org/2014/06/20/hillary-clinton-book-tour-comes-austin/</a> a Jerry Jeff Walker show. </p>\n"
+          "connection_text": "One of Clinton's first political gigs was in Texas, working with her future husband on George McGovern’s 1972 presidential campaign. Based in Austin, she befriended GSD&M ad man Roy Spence and former Land Commissioner Garry Mauro – both worked on her 2008 presidential campaign. And she even managed to catch http://www.texastribune.org/2014/06/20/hillary-clinton-book-tour-comes-austin/ a Jerry Jeff Walker show. ",
+          "blurb": "<p>One of Clinton’s first political gigs was in Texas, working with her future husband on George McGovern’s 1972 presidential campaign. Based in Austin, she befriended GSD&amp;M ad man Roy Spence and former Land Commissioner Garry Mauro – both worked on her 2008 presidential campaign. And she even managed to catch <a href=\"http://www.texastribune.org/2014/06/20/hillary-clinton-book-tour-comes-austin/\">http://www.texastribune.org/2014/06/20/hillary-clinton-book-tour-comes-austin/</a> a Jerry Jeff Walker show. </p>\n"
         },
         {
           "connection_city": "San Antonio ",
           "connection_type": "Campaign staffer ",
-          "connection_text": "Clinton told The New York Times in 2008 that she spent part of her time during the McGovern campaign living in San Antonio and registering South Texas voters.",
-          "blurb": "<p>Clinton told The New York Times in 2008 that she spent part of her time during the McGovern campaign living in San Antonio and registering South Texas voters.</p>\n"
+          "connection_text": "Clinton told The New York Times in 2008 that she also spent part of her time during the McGovern campaign living in San Antonio and registering South Texas voters.",
+          "blurb": "<p>Clinton told The New York Times in 2008 that she also spent part of her time during the McGovern campaign living in San Antonio and registering South Texas voters.</p>\n"
         }
       ]
-    },
-    {
-      "META": {
-        "candidate_name": "Sen. Ted Cruz, R-Texas ",
-        "photo_url": "http://s3.amazonaws.com/static.texastribune.org/media/images/2014/09/20/TribFest_Cruz0201.jpg",
-        "photo_cred": "Bob Daemmrich ",
-        "description": "houston tktkt...second baptist...soliciter general...gwb camapign....private practice and currently lives in houston",
-        "sheet_name": "CRUZ"
-      },
-      "CONNECTIONS": [
-        {
-          "connection_city": "Houston ",
-          "connection_type": "Raised There, Lives There ",
-          "connection_text": "Cruz grew up in Houston and graduated from Second Baptist. He lives there now and prior to his election to the Senate, he was a partner at ",
-          "blurb": "<p>Cruz grew up in Houston and graduated from Second Baptist. He lives there now and prior to his election to the Senate, he was a partner at </p>\n"
-        },
-        {
-          "connection_city": "Austin ",
-          "connection_type": "Bush/Cheney 2000 campaign ",
-          "connection_text": "Cruz was a domestic policy adviser on George W. Bush's first presidential campaign ",
-          "undefined": "Please don't use this one until I confirm that he lived in Austin ",
-          "blurb": "<p>Cruz was a domestic policy adviser on George W. Bush’s first presidential campaign </p>\n"
-        }
-      ]
-    },
-    {
-      "META": {
-        "candidate_name": "Former Hewlett Packard CEO Carly Fiorina",
-        "photo_url": "https://www.flickr.com/photos/gageskidmore/13045502775",
-        "photo_cred": "Gage Skidmore",
-        "description": "Born in Austin, Fiorina left the Lone Star State as a toddler. But she returned often, and recalls swimming in Barton Springs and visitng her grandparents in Calvert. Her family still owns property in the state. In 2010, she unsuccessfully ran for Senate in California.",
-        "sheet_name": "FIORINA"
-      },
-      "CONNECTIONS": [
-        {
-          "connection_city": "Austin ",
-          "connection_type": "Born ",
-          "connection_text": "Born in Austin, Fiorina left the Lone Star State as a toddler. But she returned often, and recalls swimming in Barton Springs. ",
-          "blurb": "<p>Born in Austin, Fiorina left the Lone Star State as a toddler. But she returned often, and recalls swimming in Barton Springs. </p>\n"
-        },
-        {
-          "connection_city": "Calvert ",
-          "connection_type": "Family ",
-          "connection_text": "After her family's move, she visited her grandparents in the summers in Calvert. Her family still owns property in the state. In 2010, she unsuccessfully ran for Senate in California.",
-          "blurb": "<p>After her family’s move, she visited her grandparents in the summers in Calvert. Her family still owns property in the state. In 2010, she unsuccessfully ran for Senate in California.</p>\n"
-        }
-      ]
-    },
-    {
-      "META": {
-        "candidate_name": "Former Gov. Mike Huckabee, R-Arkansas",
-        "photo_url": "https://www.flickr.com/photos/gageskidmore/13000577764",
-        "photo_cred": "Gage Skidmore",
-        "description": "Long before he was governor of  Arkansas and or a Fox News Channel host, Huckabee attended the Southwestern Baptist Theological Seminary located in Fort Worth between 1976-1977. ",
-        "sheet_name": "HUCKABEE"
-      },
-      "CONNECTIONS": [
-        {
-          "connection_city": "Fort Worth ",
-          "connection_type": "Education ",
-          "connection_text": "Long before he was governor of Arkansas or a Fox News host, Huckabee attended the Southwestern Baptist Theological Seminary in Fort Worth between 1976-1977. He did not graduate. ",
-          "blurb": "<p>Long before he was governor of Arkansas or a Fox News host, Huckabee attended the Southwestern Baptist Theological Seminary in Fort Worth between 1976-1977. He did not graduate. </p>\n"
-        }
-      ]
-    },
-    {
-      "CONNECTIONS": []
     },
     {
       "META": {
         "candidate_name": "Sen. Rand Paul, R-Ky.",
         "photo_url": "http://s3.amazonaws.com/static.texastribune.org/media/images/RandPaul1CMS.jpg",
+        "photo_slug": "randPaul",
         "photo_cred": "Bob Daemmrich",
         "description": "Paul spent most of his childhood in Lake Jackson and attended Baylor University. His father, Ron Paul, represented southeast Texas in non-consecutive terms from the 1970s until 2013.  ",
         "sheet_name": "PAUL"
@@ -152,36 +137,55 @@
     },
     {
       "META": {
-        "candidate_name": "Gov. Rick Perry, R-Texas ",
-        "photo_url": "xx",
-        "description": "The outgoing governor of Texas...tktktktktktk longest servign gov, yell leader, born in paint tktkt served in state government since tktktkt ",
-        "sheet_name": "PERRY"
+        "candidate_name": "Former Hewlett Packard CEO Carly Fiorina",
+        "photo_url": "https://www.flickr.com/photos/gageskidmore/13045502775",
+        "photo_slug": "carlyFiorina",
+        "photo_cred": "Gage Skidmore",
+        "description": "Born in Austin, Fiorina left the Lone Star State as a toddler. But she returned often, and recalls swimming in Barton Springs and visitng her grandparents in Calvert. Her family still owns property in the state. In 2010, she unsuccessfully ran for Senate in California.",
+        "sheet_name": "FIORINA",
+        "mapbox": "http://api.tiles.mapbox.com/v4/texastribune.map-3g2hqvcf/pin-s+c00(-97.74,30.27),pin-s+c00(-96.67,30.98)/-100,31.5,5/400x300.png?access_token=pk.eyJ1IjoidGV4YXN0cmlidW5lIiwiYSI6Ilo2eDhZWmcifQ.19qcXfOTN6ulkGW5oouiPQ"
       },
       "CONNECTIONS": [
         {
-          "connection_city": "Paint Creek",
-          "connection_type": "Born  ",
-          "connection_text": "Perry grew up in Paint Creek, an experience he recalled in \"On My Honor,\" a book about his time as a Boy Scout. ",
-          "blurb": "<p>Perry grew up in Paint Creek, an experience he recalled in “On My Honor,” a book about his time as a Boy Scout. </p>\n"
-        },
-        {
-          "connection_city": "College Station ",
-          "connection_type": "Education ",
-          "connection_text": "Perry is a 1972 Texas A&M graduate, was a member of the Corps, and is possibly its most famous Yell Leader. ",
-          "blurb": "<p>Perry is a 1972 Texas A&amp;M graduate, was a member of the Corps, and is possibly its most famous Yell Leader. </p>\n"
-        },
-        {
           "connection_city": "Austin ",
-          "connection_type": "Work ",
-          "connection_text": "Perry served in state government from 1985 until his retirement later this month. ",
-          "blurb": "<p>Perry served in state government from 1985 until his retirement later this month. </p>\n"
+          "connection_type": "Born ",
+          "connection_text": "Born in Austin, the former Hewlett Packard CEO left the Lone Star State as a toddler. But she returned often, and recalls swimming in Barton Springs. ",
+          "blurb": "<p>Born in Austin, the former Hewlett Packard CEO left the Lone Star State as a toddler. But she returned often, and recalls swimming in Barton Springs. </p>\n"
+        },
+        {
+          "connection_city": "Calvert ",
+          "connection_type": "Family ",
+          "connection_text": "After her family's move, she visited her grandparents in the summers in Calvert. Her family still owns property in the state. ",
+          "blurb": "<p>After her family’s move, she visited her grandparents in the summers in Calvert. Her family still owns property in the state. </p>\n"
         }
       ]
     },
     {
       "META": {
+        "candidate_name": "Former Gov. Mike Huckabee, R-Arkansas",
+        "photo_url": "https://www.flickr.com/photos/gageskidmore/13000577764",
+        "photo_slug": "mikeHuckabee",
+        "photo_cred": "Gage Skidmore",
+        "description": "Long before he was governor of  Arkansas and or a Fox News Channel host, Huckabee attended the Southwestern Baptist Theological Seminary located in Fort Worth between 1976-1977. ",
+        "sheet_name": "HUCKABEE"
+      },
+      "CONNECTIONS": [
+        {
+          "connection_city": "Fort Worth ",
+          "connection_type": "Education ",
+          "connection_text": "Long before he was governor of Arkansas or a Fox News host, Huckabee attended the Southwestern Baptist Theological Seminary in Fort Worth between 1976-1977. He did not graduate. ",
+          "blurb": "<p>Long before he was governor of Arkansas or a Fox News host, Huckabee attended the Southwestern Baptist Theological Seminary in Fort Worth between 1976-1977. He did not graduate. </p>\n"
+        }
+      ]
+    },
+    {
+      "CONNECTIONS": []
+    },
+    {
+      "META": {
         "candidate_name": "Sen. Elizabeth Warren, D-Mass. ",
         "photo_url": "http://www.warren.senate.gov/images/Warren%20Headshot.jpg",
+        "photo_slug": "elizabethWarren",
         "description": "Warren, the senator from Massachusetts and a liberal favorite, earned her bachelor's at the University of Houston. She later taught there as a law professor, along with the University of Texas law school in the 1980s. ",
         "sheet_name": "WARREN"
       },
@@ -189,14 +193,34 @@
         {
           "connection_city": "Houston ",
           "connection_type": "Education ",
-          "connection_text": "Warren earned her B.S. at the University of Houston and later taught at the law school in the late 1970s and early 1980s. ",
-          "blurb": "<p>Warren earned her B.S. at the University of Houston and later taught at the law school in the late 1970s and early 1980s. </p>\n"
+          "connection_text": "The Massachusetts senator, a Democrat, earned her B.S. at the University of Houston and later taught at the law school in the late 1970s and early 1980s. ",
+          "blurb": "<p>The Massachusetts senator, a Democrat, earned her B.S. at the University of Houston and later taught at the law school in the late 1970s and early 1980s. </p>\n"
         },
         {
           "connection_city": "Austin ",
           "connection_type": "Work ",
           "connection_text": "Warren was a research associate and law professor at the University of Texas Law School from 1981 to 1987.",
           "blurb": "<p>Warren was a research associate and law professor at the University of Texas Law School from 1981 to 1987.</p>\n"
+        }
+      ]
+    },
+    {
+      "CONNECTIONS": [
+        {
+          "connection_city": "Flower Mound ",
+          "connection_type": "Work ",
+          "connection_text": "The former Pennsylvania senator, a Republican, is the CEO of a \"family-friendly film company\" called EchoLight Studios that is based in Flower Mound. His spokesman says he \"spends a significant amount of time in the state through his obligations to the company.\" Also, Santorum's oldest daughter is a graduate of The University of Dallas.",
+          "blurb": "<p>The former Pennsylvania senator, a Republican, is the CEO of a “family-friendly film company” called EchoLight Studios that is based in Flower Mound. His spokesman says he “spends a significant amount of time in the state through his obligations to the company.” Also, Santorum’s oldest daughter is a graduate of The University of Dallas.</p>\n"
+        }
+      ]
+    },
+    {
+      "CONNECTIONS": [
+        {
+          "connection_city": "Arlington ",
+          "connection_type": "America's Team ",
+          "connection_text": "The New Jersey governor, a Republican, was spotted in the owner's box cheering on the Cowboys and bear-hugging team owner Jerry Jones. ",
+          "blurb": "<p>The New Jersey governor, a Republican, was spotted in the owner’s box cheering on the Cowboys and bear-hugging team owner Jerry Jones. </p>\n"
         }
       ]
     }

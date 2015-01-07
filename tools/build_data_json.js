@@ -8,16 +8,17 @@ marked.setOptions({
 });
 
 var SHEETS = [
-  'BUSH',
-  'CHRISTIE',
-  'CLINTON',
+  'PERRY',
   'CRUZ',
+  'BUSH',
+  'CLINTON',
+  'PAUL',
   'FIORINA',
   'HUCKABEE',
   'OMALLEY',
-  'PAUL',
-  'PERRY',
-  'WARREN'
+  'WARREN',
+  'SANTORUM',
+  'CHRISTIE'
 ];
 
 var workbook = XLSX.readFile('data.xlsx');
