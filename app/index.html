@@ -30,28 +30,17 @@
       <p class="candidate-description">{{ candidate.META.description }}</p>
     </div>
     <div class="connection-table">
-      <table>
-        <thead>
-          <tr>
-            <th>City</th>
-            <th>Connection</th>
-            <th>Description</th>
-          </tr>
-        </thead>
-        <tbody>
-        {% for connection in candidate.CONNECTIONS %}
-          <tr>
-            <td data-title="City">{{ connection.connection_city }}</td>
-            <td data-title="Connection">{{ connection.connection_type }}</td>
-            <td data-title="Description">{{ connection.connection_text }}</td>
-          </tr>
-        {% endfor %}
-        </tbody>
-      </table>
+      {% for connection in candidate.CONNECTIONS %}
+        <div class="connection-item">
+          <h5 class="prose city">{{ connection.connection_city }}</h5>
+          <p class="prose caption connection-type">{{ connection.connection_type }}</p>
+          <p class="prose connection-text">{{ connection.connection_text }}</p>
+        </div>
+      {% endfor %}
     </div>
   </div>
   {% endif %}
-  <hr class="yellow" />
+  <hr>
 {% endfor %}
     <h3></h3>
     <p></p>

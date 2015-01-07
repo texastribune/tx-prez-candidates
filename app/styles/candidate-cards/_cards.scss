@@ -8,7 +8,6 @@
   h3{
     margin-top: 0;
   }
-
 }
 
 .img-box{
@@ -22,13 +21,20 @@
   padding-top: 10px;
 }
 
-
-.table-title{
-  font-variant: small-caps;
-  font-size: 1.2em;
-  margin-bottom: 10px;
-}
-
 .connection-table{
   @include span-columns(12);
+}
+
+.connection-item{
+  margin: 1em 0;
+  .city{
+    font-weight: 700;
+  }
+}
+
+hr {
+  background-color: $tribune-yellow;
+  color: $tribune-yellow;
+  border: 1px solid $tribune-yellow;
+  height: .5px;
 }
