@@ -26,7 +26,14 @@
     <div class="card-header">
     <h3 class="candidate-name">{{ candidate.META.candidate_name }}</h3>
       <div class="img-box">
-        <img src="imgs/{{ candidate.META.photo_slug }}.jpg">
+        {% if candidate.META.photo_slug != "" %}
+        <img src="images/{{ candidate.META.photo_slug }}.jpg">
+        {% else %}
+        <img src="imgs/chrisChristie.gif">
+        {% endif %}
+        {% if candidate.META.photo_cred != "" %}
+        <p class="credit">Photo by: {{ candidate.META.photo_cred }}</p>
+        {% endif %}
       </div>
       <div class="map-box">
         <img src="{{ candidate.META.mapbox }}">
