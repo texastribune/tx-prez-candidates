@@ -13,17 +13,26 @@
   @include span-columns(12);
 }
 
+$imgmap-bp: new-breakpoint(min-width 550px);
+
 .img-box{
-  width:55%;
-  float:left;
+  width:100%;
+  @include media($imgmap-bp){
+    width:55%;
+    float:left;
+  }
   img{
     width: 100%;
   }
 }
 
 .map-box{
-  width:43%;
-  float:right;
+  display:none;
+  @include media($imgmap-bp){
+    width:43%;
+    float:right;
+    display:block;
+  }
   img{
     width: 100%;
   }
@@ -38,7 +47,7 @@
 }
 
 .connection-item{
-  margin: 2em 0;
+  margin: 1em 0 2em 0;
   .city{
     font-weight: 700;
   }
