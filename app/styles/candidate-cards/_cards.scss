@@ -34,13 +34,15 @@
 
 .connection-table{
   @include span-columns(12);
-  background-color: $background-gray;
 }
 
 .connection-item{
   margin: 1em 0;
   .city{
     font-weight: 700;
+  }
+  p{
+    font-family: $helvetica;
   }
 }
 
@@ -49,4 +51,5 @@ hr {
   color: $tribune-yellow;
   border: 1px solid $tribune-yellow;
   height: .5px;
+  margin-bottom: .5em;
 }
