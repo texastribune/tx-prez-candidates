@@ -2,7 +2,7 @@
   "DATA": [
     {
       "META": {
-        "candidate_name": "Texas Gov. Rick Perry",
+        "candidate_name": "Rick Perry",
         "photo_url": "http://s3.amazonaws.com/static.texastribune.org/media/images/2014/08/16/UP9A5693.JPG",
         "photo_slug": "rickPerry",
         "photo_cred": "Marjorie Kamys Cotera",
@@ -33,7 +33,7 @@
     },
     {
       "META": {
-        "candidate_name": "Sen. Ted Cruz, R-Texas ",
+        "candidate_name": "Ted Cruz",
         "photo_url": "http://s3.amazonaws.com/static.texastribune.org/media/images/2014/09/20/TribFest_Cruz0201.jpg",
         "photo_slug": "tedCruz",
         "photo_cred": "Bob Daemmrich ",
@@ -50,16 +50,15 @@
         },
         {
           "connection_city": "Austin ",
-          "connection_type": "Bush/Cheney 2000 campaign ",
-          "connection_text": "Cruz was a domestic policy adviser on George W. Bush's first presidential campaign ",
-          "undefined": "Please don't use this one until I confirm that he lived in Austin ",
-          "blurb": "<p>Cruz was a domestic policy adviser on George W. Bush’s first presidential campaign </p>\n"
+          "connection_type": "Campaign Staffer",
+          "connection_text": "As a domestic policy adviser on the Bush Cheney 2000 presidential campaign, Cruz lived in the state's capital.",
+          "blurb": "<p>As a domestic policy adviser on the Bush Cheney 2000 presidential campaign, Cruz lived in the state’s capital.</p>\n"
         }
       ]
     },
     {
       "META": {
-        "candidate_name": "Former Gov. Jeb Bush, R-Fla. ",
+        "candidate_name": "Jeb Bush",
         "photo_url": "http://s3.amazonaws.com/static.texastribune.org/media/images/2013/02/25/JebBush-2.jpg",
         "photo_slug": "jebBush",
         "photo_cred": "World Affairs Council of Philadelphia",
@@ -89,7 +88,7 @@
     },
     {
       "META": {
-        "candidate_name": "Former U.S. Secretary of State Hillary Clinton",
+        "candidate_name": "Hillary Clinton",
         "photo_url": "http://s3.amazonaws.com/static.texastribune.org/media/images/2014/06/20/AHRCAustin345cms.jpg",
         "photo_slug": "hillaryClinton",
         "photo_cred": "Bob Daemmrich ",
@@ -114,7 +113,7 @@
     },
     {
       "META": {
-        "candidate_name": "Sen. Rand Paul, R-Ky.",
+        "candidate_name": "Rand Paul",
         "photo_url": "http://s3.amazonaws.com/static.texastribune.org/media/images/RandPaul1CMS.jpg",
         "photo_slug": "randPaul",
         "photo_cred": "Bob Daemmrich",
@@ -139,7 +138,7 @@
     },
     {
       "META": {
-        "candidate_name": "Former Hewlett Packard CEO Carly Fiorina",
+        "candidate_name": "Carly Fiorina",
         "photo_url": "https://www.flickr.com/photos/gageskidmore/13045502775",
         "photo_slug": "carlyFiorina",
         "photo_cred": "Gage Skidmore",
@@ -164,7 +163,7 @@
     },
     {
       "META": {
-        "candidate_name": "Former Gov. Mike Huckabee, R-Arkansas",
+        "candidate_name": "Mike Huckabee",
         "photo_url": "https://www.flickr.com/photos/gageskidmore/13000577764",
         "photo_slug": "mikeHuckabee",
         "photo_cred": "Gage Skidmore",
@@ -183,7 +182,7 @@
     },
     {
       "META": {
-        "candidate_name": "Gov. Martin O'Malley, D-Md. ",
+        "candidate_name": "Martin O'Malley",
         "photo_url": "http://s3.amazonaws.com/static.texastribune.org/media/images/2013/09/12/5116909665_0b1c202afb_o.jpg",
         "photo_slug": "martinOmalley",
         "photo_cred": "Edward Kimmel",
@@ -202,7 +201,7 @@
     },
     {
       "META": {
-        "candidate_name": "Sen. Elizabeth Warren, D-Mass. ",
+        "candidate_name": "Elizabeth Warren",
         "photo_url": "http://www.warren.senate.gov/images/Warren%20Headshot.jpg",
         "photo_slug": "elizabethWarren",
         "description": "Warren, the senator from Massachusetts and a liberal favorite, earned her bachelor's at the University of Houston. She later taught there as a law professor, along with the University of Texas law school in the 1980s. ",
@@ -226,7 +225,7 @@
     },
     {
       "META": {
-        "candidate_name": "Former Sen. Rick Santorum, R-Penn. ",
+        "candidate_name": "Rick Santorum",
         "photo_url": "http://s3.amazonaws.com/static.texastribune.org/media/images/CNNDebateSantorumCMS.jpg",
         "photo_slug": "rickSantorum",
         "photo_cred": "Bob Daemmrich",
