@@ -23,8 +23,7 @@
 {% for candidate in DATA %}
   {% if candidate.META != "" %}
   <div class="candidate-card">
-    <div class="card-header prose">
-
+    <div class="card-header">
     <h3 class="candidate-name">{{ candidate.META.candidate_name }}</h3>
       <div class="img-box">
         {% if candidate.META.photo_slug != "" %}
@@ -41,8 +40,8 @@
     <div class="connection-table">
       {% for connection in candidate.CONNECTIONS %}
         <div class="connection-item prose">
-          <h4 class="city">{{ connection.connection_city }}</h5>
-          <p class="caption connection-type">Relationship: {{ connection.connection_type }}</p>
+          <h4 class="city">City: {{ connection.connection_city }}</h5>
+          <p class="caption connection-type">Connection: {{ connection.connection_type }}</p>
           <p class="connection-text">{{ connection.connection_text }}</p>
         </div>
       {% endfor %}
