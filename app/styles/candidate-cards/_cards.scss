@@ -4,7 +4,6 @@
 
 .candidate-card{
   @include span-columns(12);
-  margin: 1em;
   h3{
     margin-top: 0;
   }
@@ -15,19 +14,16 @@
 }
 
 .img-box{
-  width:53%;
+  width:55%;
   float:left;
-  height:200px;
   img{
     width: 100%;
   }
 }
 
 .map-box{
-  width:45%;
+  width:43%;
   float:right;
-  height:200px;
-  overflow:hidden;
   img{
     width: 100%;
   }
