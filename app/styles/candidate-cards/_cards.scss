@@ -5,7 +5,7 @@
 .candidate-card{
   @include span-columns(12);
   h3{
-    margin-top: 0;
+    margin: 0 0 .5em 0;
   }
 }
 
@@ -23,6 +23,11 @@ $imgmap-bp: new-breakpoint(min-width 550px);
   }
   img{
     width: 100%;
+  }
+  .caption{
+    color:#666;
+    font-size:.8em;
+    margin:.25em 0;
   }
 }
 
