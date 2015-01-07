@@ -23,6 +23,7 @@
 
 .connection-table{
   @include span-columns(12);
+  background-color: $background-gray;
 }
 
 .connection-item{

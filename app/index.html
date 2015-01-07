@@ -31,10 +31,10 @@
     </div>
     <div class="connection-table">
       {% for connection in candidate.CONNECTIONS %}
-        <div class="connection-item">
-          <h5 class="prose city">{{ connection.connection_city }}</h5>
-          <p class="prose caption connection-type">{{ connection.connection_type }}</p>
-          <p class="prose connection-text">{{ connection.connection_text }}</p>
+        <div class="connection-item prose">
+          <h4 class="city">{{ connection.connection_city }}</h5>
+          <p class="caption connection-type">{{ connection.connection_type }}</p>
+          <p class="connection-text">{{ connection.connection_text }}</p>
         </div>
       {% endfor %}
     </div>
