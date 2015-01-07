@@ -24,17 +24,20 @@
   {% if candidate.META != "" %}
   <div class="candidate-card">
     <div class="card-header prose">
+    <h3 class="candidate-name">{{ candidate.META.candidate_name }}</h3>
       <div class="img-box">
         <img src="imgs/{{ candidate.META.photo_slug }}.jpg">
       </div>
-      <h3 class="candidate-name">{{ candidate.META.candidate_name }}</h3>
-      <p class="candidate-description">{{ candidate.META.description }}</p>
+      <div class="map-box">
+        <img src="{{ candidate.META.mapbox }}">
+      </div>
+
     </div>
     <div class="connection-table">
       {% for connection in candidate.CONNECTIONS %}
         <div class="connection-item prose">
           <h4 class="city">{{ connection.connection_city }}</h5>
-          <p class="caption connection-type">Connection: {{ connection.connection_type }}</p>
+          <p class="caption connection-type">Reflection: {{ connection.connection_type }}</p>
           <p class="connection-text">{{ connection.connection_text }}</p>
         </div>
       {% endfor %}

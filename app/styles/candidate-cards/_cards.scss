@@ -10,8 +10,19 @@
   }
 }
 
+.candidate-name{
+  @include span-columns(12);
+}
+
 .img-box{
-  @include span-columns(3);
+  @include span-columns(5);
+  img{
+    width: 100%;
+  }
+}
+
+.map-box{
+  @include span-columns(6);
   img{
     width: 100%;
   }
