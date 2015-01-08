@@ -18,6 +18,7 @@ var SHEETS = [
   'OMALLEY',
   'WARREN',
   'SANTORUM',
+  'WEBB',
   'CHRISTIE'
 ];
 
@@ -37,13 +38,13 @@ SHEETS.forEach(function(sheet) {
 
   var data = XLSX.utils.sheet_to_json(worksheet);
 
-  data.forEach(function(e) {
-    if (!e.connection_text) {
-      return;
-    }
-    e.blurb = marked(e.connection_text);
+  // data.forEach(function(e) {
+  //   if (!e.connection_text) {
+  //     return;
+  //   }
+  //   e.blurb = marked(e.connection_text);
 
-  });
+  // });
 
   var tempData = {};
 
