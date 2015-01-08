@@ -47,6 +47,9 @@ $imgmap-bp: new-breakpoint(min-width 550px);
 
 .christie-box{
   @include span-columns(12);
+  img{
+    max-width:100%;
+  }
 }
 
 .card-header{
