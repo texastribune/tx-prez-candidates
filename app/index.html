@@ -25,17 +25,18 @@
   <div class="candidate-card">
     <div class="card-header">
     <h3 class="candidate-name">{{ candidate.META.candidate_name }}</h3>
-      <div class="img-box">
-        {% if candidate.META.photo_slug != " " %}
-        <img src="images/{{ candidate.META.photo_slug }}.jpg">
-        {% else %}
-        <img src="images/chrisChristie.gif">
-        {% endif %}
-      </div>
-      <div class="map-box">
-        <img src="{{ candidate.META.mapbox }}">
-      </div>
-
+      {% if candidate.META.photo_slug != " " %}
+        <div class="img-box">
+          <img src="images/{{ candidate.META.photo_slug }}.jpg">
+        </div>
+        <div class="map-box">
+          <img src="{{ candidate.META.mapbox }}">
+        </div>
+      {% else %}
+        <div class="christie-box">
+          <img src="images/chrisChristie.gif">
+        </div>
+      {% endif %}
     </div>
     <div class="connection-table">
       {% for connection in candidate.CONNECTIONS %}
