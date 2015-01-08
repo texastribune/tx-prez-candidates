@@ -45,6 +45,10 @@ $imgmap-bp: new-breakpoint(min-width 550px);
   }
 }
 
+.christie-box{
+  @include span-columns(12);
+}
+
 .card-header{
   padding-top: 10px;
 }
