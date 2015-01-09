@@ -4,6 +4,6 @@ var pymChild = new pym.Child();
 
 $(window).load(function() {
   'use strict';
-  pymChild.sendHeight();
+  pymChild.sendMessage('height', '' + document.body.scrollHeight)
 });
 
