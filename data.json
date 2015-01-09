@@ -19,7 +19,7 @@
         {
           "connection_city": "College Station ",
           "connection_type": "Studied there",
-          "connection_text": "Perry is a 1972 Texas A&M graduate, was a member of the Corps and is possibly its most famous Yell Leader. "
+          "connection_text": "Perry is a 1972 Texas A&M University graduate, was a member of the Corps and is possibly its most famous Yell Leader. "
         },
         {
           "connection_city": "Austin ",
@@ -47,7 +47,7 @@
         {
           "connection_city": "Austin ",
           "connection_type": "Worked there",
-          "connection_text": "As a domestic policy adviser on the Bush Cheney 2000 presidential campaign, Cruz lived in the state's capital."
+          "connection_text": "As a domestic policy adviser on the Bush-Cheney 2000 presidential campaign, Cruz lived in the state's capital."
         }
       ]
     },
@@ -97,7 +97,7 @@
         {
           "connection_city": "San Antonio ",
           "connection_type": "Worked there",
-          "connection_text": "Clinton told The New York Times in 2008 that she also spent part of her time during the McGovern campaign living in San Antonio and registering South Texas voters."
+          "connection_text": "Clinton told <em>The New York Times</em> in 2008 that she also spent part of her time during the McGovern campaign living in San Antonio and registering South Texas voters."
         }
       ]
     },
@@ -120,7 +120,7 @@
         {
           "connection_city": "Waco ",
           "connection_type": "Studied there",
-          "connection_text": "Paul attended Baylor in the early 1980s. He did not earn his bachelor's degree, but went on to Duke Medical School. "
+          "connection_text": "Paul attended Baylor University in the early 1980s. He did not earn his bachelor's degree, but went on to Duke Medical School. "
         }
       ]
     },
@@ -138,7 +138,7 @@
         {
           "connection_city": "Austin ",
           "connection_type": "Born there",
-          "connection_text": "Born in Austin, the former Hewlett Packard CEO left the Lone Star State as a toddler. But she returned often, and recalls swimming in Barton Springs. "
+          "connection_text": "Born in Austin, the former Hewlett-Packard CEO left the Lone Star State as a toddler. But she returned often, and recalls swimming in Barton Springs. "
         },
         {
           "connection_city": "Calvert ",
@@ -253,7 +253,13 @@
         "description": "jgsdjhdjshdfjgkf",
         "sheet_name": "CHRISTIE"
       },
-      "CONNECTIONS": []
+      "CONNECTIONS": [
+        {
+          "connection_city": "Arlington ",
+          "connection_type": "America's Team ",
+          "connection_text": "The New Jersey governor, a Republican, was spotted in the owner's box cheering on the Cowboys and bear-hugging team owner Jerry Jones."
+        }
+      ]
     }
   ]
 }
